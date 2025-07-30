@@ -154,13 +154,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header 
-        userRole={user.role}
-        userName={user.name}
-        notificationCount={3}
-        onMenuClick={() => setSidebarOpen(true)}
-        onSignOut={() => console.log("Sign out")}
-      />
+      <Header />
       
       <div className="flex">
         <Sidebar 

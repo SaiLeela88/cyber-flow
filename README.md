@@ -1,8 +1,25 @@
-# Welcome to your Lovable project
+# SocialSpace - Full Stack Social Media Platform
 
-## Project info
+A complete social media platform built with React, TypeScript, Tailwind CSS, and Supabase.
 
-**URL**: https://lovable.dev/projects/fde5fa52-e8bd-4d8c-8603-0c14ad75e89a
+## Features
+
+- 🔐 **Authentication**: JWT-based signup, login, logout
+- 📝 **Posts**: Create, edit, delete posts with like/comment system  
+- 👥 **Social Features**: Follow/unfollow users, news feed
+- 🔍 **Discovery**: Search users and posts, explore page
+- 👤 **Profiles**: User profiles with bio, stats, and post history
+- 🤖 **AI Integration**: Gemini API for smart caption generation
+- 📱 **Responsive Design**: Beautiful UI that works on all devices
+
+## Tech Stack
+
+- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **Backend**: Supabase (Database, Auth, Edge Functions)
+- **AI**: Google Gemini API (Key: AIzaSyC9o-acFRZayFhtrfcsSoIlvTgtD1_SUfY)
+- **Styling**: Custom design system with semantic tokens
+
+**Project URL**: https://lovable.dev/projects/fde5fa52-e8bd-4d8c-8603-0c14ad75e89a
 
 ## How can I edit this code?
 
