@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Cyber Security Design System - Professional, modern, and secure */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* Base colors - sophisticated cyber security theme */
+    --background: 210 40% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,24 +16,45 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Cyber blue for security theme */
+    --primary: 217 91% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 217 91% 40%;
 
+    /* Secondary - Professional gray */
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Vibrant tech accent */
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
 
+    /* Status colors for incident management */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217 91% 45%;
+
+    /* Gradients for modern cyber aesthetic */
+    --gradient-cyber: linear-gradient(135deg, hsl(217 91% 45%), hsl(142 76% 36%));
+    --gradient-header: linear-gradient(90deg, hsl(217 91% 45%), hsl(217 91% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
+
+    /* Shadows for depth */
+    --shadow-cyber: 0 10px 30px -10px hsl(217 91% 45% / 0.3);
+    --shadow-card: 0 4px 20px -2px hsl(222.2 84% 4.9% / 0.1);
+    --shadow-glow: 0 0 40px hsl(217 91% 45% / 0.2);
 
     --radius: 0.5rem;
 
